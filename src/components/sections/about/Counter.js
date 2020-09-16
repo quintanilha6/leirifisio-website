@@ -10,8 +10,8 @@ class Counter extends Component {
       <div className="container">
         {/* Section Title */}
         <div className="section-title mb-80">
-          <span className="title-tag">COUNTER</span>
-          <h2>Some Fun Facts</h2>
+          <span className="title-tag">contador</span>
+          <h2>Alguns factos</h2>
         </div>
         {/* Counter */}
         <div className="row justify-content-center">
@@ -20,8 +20,8 @@ class Counter extends Component {
               <div className="icon">
                 <i className="flaticon-user-1" />
               </div>
-              <h4><CountUp end={8000} duration={5}/></h4>
-              <span className="title">Happy Users</span>
+              <h4><CountUp end={3548} duration={5}/></h4>
+              <span className="title">Clientes satisfeitos</span>
             </div>
           </div>
           <div className="col-lg-4 col-6">
@@ -29,8 +29,8 @@ class Counter extends Component {
               <div className="icon">
                 <i className="flaticon-like" />
               </div>
-              <h4><CountUp end={10} duration={5}/>M</h4>
-              <span className="title">Reviews &amp; Appriciate</span>
+              <h4><CountUp end={182} duration={5}/></h4>
+              <span className="title">Comentários positivos</span>
             </div>
           </div>
           <div className="col-lg-4 col-6">
@@ -38,27 +38,10 @@ class Counter extends Component {
               <div className="icon">
                 <i className="flaticon-suitcase" />
               </div>
-              <h4><CountUp end={100} duration={5}/></h4>
-              <span className="title">Country Coverage</span>
+              <h4><CountUp end={0} duration={5}/></h4>
+              <span className="title">Reclamações</span>
             </div>
           </div>
-        </div>
-        {/* Gallery */}
-        <div className="row">
-        <ReactWOW animation="fadeInUp" data-wow-delay=".3s">
-          <div className="col-sm-6">
-            <div className="image mt-30">
-              <img src="assets/img/gallery/09.jpg" alt="" />
-            </div>
-          </div>
-          </ReactWOW>
-          <ReactWOW animation="fadeInUp" data-wow-delay=".5s">
-          <div className="col-sm-6">
-            <div className="image mt-30">
-              <img src="assets/img/gallery/10.jpg" alt="" />
-            </div>
-          </div>
-          </ReactWOW>
         </div>
       </div>
     </section>

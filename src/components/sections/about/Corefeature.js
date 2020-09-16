@@ -8,8 +8,8 @@ class Corefeature extends Component {
       <section className="core-feature-section bg-black pt-115 pb-115">
           <div className="container">
             <div className="section-title white-color text-center mb-50">
-              <span className="title-tag"> facilities </span>
-              <h2>Core Features</h2>
+              <span className="title-tag"> núcleo </span>
+              <h2>Características</h2>
             </div>
             {/* Featre Loop */}
             <div className="row features-loop">
@@ -17,12 +17,11 @@ class Corefeature extends Component {
                 <ReactWOW animation="fadeInLeft" data-wow-delay=".3s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-rating" />
+                    <i className="flaticon-quality" />
                   </div>
-                  <h3><Link to="#">Have High Rating</Link></h3>
+                  <h3><Link to="#">Boa classificação</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Ao longos dos anos, acumulamos feedbacks e comentários positivos de toda a diversidade dos nossos utentes 
                   </p>
                   <span className="count">01</span>
                 </div>
@@ -32,12 +31,11 @@ class Corefeature extends Component {
               <ReactWOW animation="fadeInDown" data-wow-delay=".4s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-clock" />
+                    <i className="flaticon-meditation" />
                   </div>
-                  <h3><Link to="#">Quiet Hours</Link></h3>
+                  <h3><Link to="#">Espaço calmo</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Durante qualquer sessão, oferecemos aos utentes um ambiente calmo e susceptível ao bem-estar do mesmo.
                   </p>
                   <span className="count">02</span>
                 </div>
@@ -47,12 +45,11 @@ class Corefeature extends Component {
               <ReactWOW animation="fadeInRight" data-wow-delay=".5s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-location-pin" />
+                    <i className="flaticon-parking" />
                   </div>
-                  <h3><Link to="#">Best Locations</Link></h3>
+                  <h3><Link to="#">Boa localização</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Perto do Seminário Diocesano de Leiria. Várias opções para estacionamento de veículos. 
                   </p>
                   <span className="count">03</span>
                 </div>
@@ -62,12 +59,11 @@ class Corefeature extends Component {
               <ReactWOW animation="fadeInLeft" data-wow-delay=".6s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-clock-1" />
+                    <i className="flaticon-error" />
                   </div>
-                  <h3><Link to="#">Free Cancellation</Link></h3>
+                  <h3><Link to="#">Cancelamento</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Estamos conscientes de que podem existir imprevistos. Por isso aceitamos cancelamentos com justa causa
                   </p>
                   <span className="count">04</span>
                 </div>
@@ -77,12 +73,11 @@ class Corefeature extends Component {
               <ReactWOW animation="fadeInUp" data-wow-delay=".7s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-credit-card" />
+                    <i className="flaticon-home" />
                   </div>
-                  <h3><Link to="#">Payment Options</Link></h3>
+                  <h3><Link to="#">Espaço amplo</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Com um grande espaço amplo e uma óptima exposição solar, garantimos o destanciamento social necessário
                   </p>
                   <span className="count">05</span>
                 </div>
@@ -92,12 +87,11 @@ class Corefeature extends Component {
               <ReactWOW animation="fadeInRight" data-wow-delay=".8s">
                 <div className="feature-box dark-box">
                   <div className="icon">
-                    <i className="flaticon-discount" />
+                    <i className="flaticon-handshake" />
                   </div>
-                  <h3><Link to="#">Special Offers</Link></h3>
+                  <h3><Link to="/partnerships">Parcerias</Link></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna..
+                    Junto com os protocolos, a Leirifisio garante descontos legíveis nos tratamentos com parcerias
                   </p>
                   <span className="count">06</span>
                 </div>

@@ -21,16 +21,16 @@ const testimonialPosts = [
     desc: 'Obrigado por tratarem as minhas mazelas (uma fasceite plantar e uma fibrose). Sei onde voltar se precisar.',
   },
   {
-    photo: graca,
-    name: 'Graça Santos',
-    designation: 'Professora',
-    desc: 'Excelente! Parabéns! Continuem o óptimo trabalho da vossa parte para bem de todos nós.',
-  },
-  {
     photo: eulalia,
     name: 'Eulália Coutinho',
     designation: 'Funcionária pública',
     desc: 'Parabéns Leirifisio! Por ser quem são! Por ser como são! Muito obrigado! Continuem o bom trabalho.',
+  },
+  {
+    photo: graca,
+    name: 'Graça Santos',
+    designation: 'Professora',
+    desc: 'Excelente! Parabéns! Continuem o óptimo trabalho da vossa parte para bem de todos nós.',
   },
 ];
 

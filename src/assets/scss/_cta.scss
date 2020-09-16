@@ -267,6 +267,31 @@
 					max-width: 100px;
 				}
 			}
+			&.rotate-image-two {
+				left: 8%;
+				top: 0;
+				left: auto;
+				max-width: 260px;
+				transform: rotate(-37deg);
+				@media #{$xl} {
+					left: 2%;
+				}
+				@media #{$lg} {
+					left: 2%;
+					max-width: 220px;
+				}
+				@media #{$md} {
+					left: 1%;
+					max-width: 180px;
+				}
+				@media #{$sm} {
+					left: 1%;
+					max-width: 150px;
+				}
+				@media #{$tiny} {
+					max-width: 100px;
+				}
+			}
 			&.rotate-image-three {
 				right: 5%;
 				left: auto;
