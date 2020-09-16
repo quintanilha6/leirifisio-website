@@ -1,36 +1,39 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 
-import tesimg1 from '../../../assets/img/testimonial/01.png';
-import tesimg2 from '../../../assets/img/testimonial/02.png';
-import tesimg3 from '../../../assets/img/testimonial/03.png';
+import graca from '../../../assets/img/testimonial/graca.jpg';
+import eulalia from '../../../assets/img/testimonial/eulalia.jpg';
+import mariacandida from '../../../assets/img/testimonial/mariacandida.jpg';
+import nuno from '../../../assets/img/testimonial/nuno.jpg';
+import an from '../../../assets/img/testimonial/an.png';
 
 const testimonialPosts = [
   {
-    photo: tesimg1,
-    name: 'Rosalina Maria',
-    designation: 'Professora reformada',
-    desc: 'A Leirifisio é muito linda e tem lindo espaços com lindas pessoas a dirigi-lo. tambem adoro a segurança que têm',
+    photo: mariacandida,
+    name: 'Maria Cândida Almeida',
+    designation: 'Funcionária pública',
+    desc: 'Recomendo! Excelentes profissionais, sempre a dar qualidade de vida aos que as solicitam a minorar as "dores".',
   },
   {
-    photo: tesimg2,
-    name: 'Donald H. Hilixer',
-    designation: 'Founder, hilix',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    photo: nuno,
+    name: 'Nuno Dias',
+    designation: 'Professor',
+    desc: 'Obrigado por tratarem as minhas mazelas (uma fasceite plantar e uma fibrose). Sei onde voltar se precisar.',
   },
   {
-    photo: tesimg3,
-    name: 'Browfish Dumble',
-    designation: 'Founder, Condo',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    photo: graca,
+    name: 'Graça Santos',
+    designation: 'Professora',
+    desc: 'Excelente! Parabéns! Continuem o óptimo trabalho da vossa parte para bem de todos nós.',
   },
   {
-    photo: tesimg2,
-    name: 'Donald H. Hilixer',
-    designation: 'Founder, hilix',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    photo: eulalia,
+    name: 'Eulália Coutinho',
+    designation: 'Funcionária pública',
+    desc: 'Parabéns Leirifisio! Por ser quem são! Por ser como são! Muito obrigado! Continuem o bom trabalho.',
   },
 ];
+
 class Testmonials extends Component {
   render() {
     const settings = {

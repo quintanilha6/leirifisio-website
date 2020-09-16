@@ -15,7 +15,7 @@ class About extends Component {
     onCloseModal = () => {
     this.setState({ open: false });
     };
-    render() {
+    render() { 
     const { open } = this.state;
     return (
       <section className="about-section pt-115 pb-115">

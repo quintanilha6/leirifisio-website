@@ -5,7 +5,7 @@ import Breadcrumb from '../sections/about/Breadcrumb';
 import Aboutpage from '../sections/about/About';
 import Corefeature from '../sections/about/Corefeature';
 import Counter from '../sections/about/Counter';
-import News from '../sections/about/News';
+import News from '../sections/homepage-one/News';
 import Roomgallery from '../sections/homepage-one/Roomgallery';
 
 

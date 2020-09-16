@@ -66,7 +66,7 @@ class Cta extends Component {
                         <h3><Link to="#">Medição da temperatura</Link></h3>
                         <p>
                           Embora não obrigatório, encorajamos os nosso clientes a medir a temperatura com o nosso 
-                          teremometro digital antes de entrar na Leirifisio.
+                          termómetro digital antes de entrar na Leirifisio.
                         </p>
                         <span className="count">03</span>
                       </div>

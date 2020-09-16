@@ -42,7 +42,7 @@ class Footer extends Component {
                       <img src="assets/img/leirifisio/logo-sem-texto.png" alt="" />
                     </div>
                     <p>
-                    Com 18 anos de sucesso, a Leirifisio destaca-se pela disponibilização de diferentes serviços de Fisioterapia adaptados às necessidades particulares de cada um dos nossos clientes.
+                    Com {new Date().getFullYear() - 2002} anos de sucesso, a Leirifisio destaca-se pela disponibilização de diferentes serviços de Fisioterapia adaptados às necessidades particulares de cada um dos nossos clientes.
                     </p>
                   </div>
                 </div>

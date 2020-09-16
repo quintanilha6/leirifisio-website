@@ -3,52 +3,31 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 
-import blogimg1 from '../../../assets/img/latest-post/01.jpg';
-import blogimg2 from '../../../assets/img/latest-post/02.jpg';
-import blogimg3 from '../../../assets/img/latest-post/03.jpg';
+import corona from '../../../assets/img/latest-post/coronavirus1.jpg';
+import reabertura from '../../../assets/img/latest-post/reabertura.jpg';
+import diafisioterapia from '../../../assets/img/latest-post/diafisioterapia.jpg';
 
 const blogPosts = [
   {
-    photo: blogimg1,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
+    photo: diafisioterapia,
+    title: 'Hoje é Dia Mundial da Fisioterapia',
+    date: ' 7 de Setembro, 2019',
     author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    desc: 'Hoje, é Dia Mundial da Fisioterapia. Como tal, a Leirifisio associa-se à data, desejando a todos um excelente dia. Cuide da sua saúde a cima de tudo!',
   },
   {
-    photo: blogimg2,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
+    photo: reabertura,
+    title: 'Leirifisio abre as portas novamente',
+    date: ' 4 de Maio, 2020',
     author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    desc: 'É com a maior felicidade que a Leirifisio anúncia que a porta estará novamente aberta a partir do dia 4 de Maio de 2020.',
   },
   {
-    photo: blogimg3,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
+    photo: corona,
+    title: 'Leirifisio encerra devido ao COVID-19',
+    date: ' 18 de Março, 2020',
     author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    photo: blogimg1,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
-    author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    photo: blogimg2,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
-    author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    photo: blogimg3,
-    title: 'Each of our 8 double rooms has its own distinct.',
-    date: '23rd March 2019',
-    author: 'Manuela',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    desc: 'De acordo com o Decreto do Presidente da República n.º 14-A/2020, de 18 de Março, a Leirifisio é forçada a encerrar.',
   },
 ];
 
@@ -107,7 +86,7 @@ class News extends Component {
                       <i className="fal fa-calendar-alt" />{item.date}
                     </li>
                     <li>
-                      <i className="fal fa-user" />By {item.author}
+                      <i className="fal fa-user" /> {item.author}
                     </li>
                   </ul>
                   <h4>{item.title}</h4>
