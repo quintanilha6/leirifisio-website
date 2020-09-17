@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import ReactWOW from 'react-wow'
 
 class Corefeature extends Component {
@@ -19,7 +19,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-quality" />
                   </div>
-                  <h3><Link to="#">Boa classificação</Link></h3>
+                  <h3><a to="#">Boa classificação</a></h3>
                   <p>
                     Ao longos dos anos, acumulamos feedbacks e comentários positivos de toda a diversidade dos nossos utentes 
                   </p>
@@ -33,7 +33,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-meditation" />
                   </div>
-                  <h3><Link to="#">Espaço calmo</Link></h3>
+                  <h3><a to="#">Espaço calmo</a></h3>
                   <p>
                     Durante qualquer sessão, oferecemos aos utentes um ambiente calmo e susceptível ao bem-estar do mesmo.
                   </p>
@@ -47,7 +47,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-parking" />
                   </div>
-                  <h3><Link to="#">Boa localização</Link></h3>
+                  <h3><a to="#">Boa localização</a></h3>
                   <p>
                     Perto do Seminário Diocesano de Leiria. Várias opções para estacionamento de veículos. 
                   </p>
@@ -61,7 +61,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-error" />
                   </div>
-                  <h3><Link to="#">Cancelamento</Link></h3>
+                  <h3><a to="#">Cancelamento</a></h3>
                   <p>
                     Estamos conscientes de que podem existir imprevistos. Por isso aceitamos cancelamentos com justa causa
                   </p>
@@ -75,7 +75,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-home" />
                   </div>
-                  <h3><Link to="#">Espaço amplo</Link></h3>
+                  <h3><a to="#">Espaço amplo</a></h3>
                   <p>
                     Com um grande espaço amplo e uma óptima exposição solar, garantimos o destanciamento social necessário
                   </p>
@@ -89,7 +89,7 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-handshake" />
                   </div>
-                  <h3><Link to="/partnerships">Parcerias</Link></h3>
+                  <h3><a to="/partnerships">Parcerias</a></h3>
                   <p>
                     Junto com os protocolos, a Leirifisio garante descontos legíveis nos tratamentos com parcerias
                   </p>

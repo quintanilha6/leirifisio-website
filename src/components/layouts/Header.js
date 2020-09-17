@@ -201,16 +201,16 @@ triggerChild = (e) => {
                   <div className="item">
                     <i className="fas fa-phone" />
                     <span>Telefone</span>
-                    <Link to="tel:244 838 574">
+                    <a href="tel:244 838 574">
                       <h5 className="title">244 838 574</h5>
-                    </Link>
+                    </a>
                   </div>
                   <div className="item">
                     <i className="fas fa-envelope" />
                     <span>E-mail</span>
-                    <Link to="mailto:leirifisio@gmail.com">
+                    <a href="mailto:leirifisio@gmail.com">
                       <h5 className="title">leirifisio@gmail.com</h5>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -227,49 +227,32 @@ triggerChild = (e) => {
           <div className={classNames("offcanvas-overly", {"show-overly":this.state.redText})}  onClick={this.removeAll}/>
           <div className="offcanvas-widget">
             <Link to="#" className="offcanvas-close" onClick={this.removeClass}><i className="fal fa-times" /></Link>
-            {/* Search Widget */}
-            <div className="widget search-widget">
-              <h5 className="widget-title">Search room</h5>
-              <form action="#">
-                <input type="text" placeholder="Search your keyword..." />
-                <button type="submit"><i className="far fa-search" /></button>
-              </form>
-            </div>
             {/* About Widget */}
             <div className="widget about-widget">
-              <h5 className="widget-title">About us</h5>
+              <h5 className="widget-title">Sobre nós</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis illo ipsa asperiores,
-                perspiciatis corrupti veritatis assumenda architecto commodi provident quas necessitatibus
-                consequatur praesentium magnam optio deserunt fugiat repellat culpa.
+                A Leirifisio é um centro de Fisioterapia e Movimento privado fundado em 2002. Atualmente gerido 
+                por Manuela Silva, Licenciada em Fisioterapia, a Leirifisio está situada no centro de Leiria, 
+                junto ao Seminário Diocesano de Leiria. Venha conhecer-nos.
               </p>
             </div>
             {/* Nav Widget */}
             <div className="widget nav-widget">
-              <h5 className="widget-title">Our pages</h5>
+              <h5 className="widget-title">Páginas</h5>
               <ul>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/menu">Food Menu</Link></li>
-                <li><Link to="/restaurant">Restaurant</Link></li>
-                <li>
-                  <Link to="/places">Places</Link>
-                  <ul className="submenu">
-                    <li><Link to="/places-details">Places Details</Link></li>
-                  </ul>
-                </li>
-                <li><Link to="/offers">Offers</Link></li>
-                <li><Link to="/gallery">Our Gallery</Link></li>
+                <li><Link to="/">Leirifisio</Link></li>
+                <li><Link to="/about">Sobre nós</Link></li>
+                <li><Link to="/partnerships">Parcerias</Link></li>
+                <li><Link to="/contact">Contacto</Link></li>
               </ul>
             </div>
             {/* Social Link */}
             <div className="widget social-link">
-              <h5 className="widget-title">Contact with us</h5>
+              <h5 className="widget-title">Contacte-nos</h5>
               <ul>
-                <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
-                <li><Link to="#"><i className="fab fa-twitter" /></Link></li>
-                <li><Link to="#"><i className="fab fa-behance" /></Link></li>
-                <li><Link to="#"><i className="fab fa-linkedin" /></Link></li>
-                <li><Link to="#"><i className="fab fa-google" /></Link></li>
+                <li><a target="_blank" href="https://www.facebook.com/leirifisio/"><i className="fab fa-facebook-f" /></a></li>
+                <li><a href="mailto:leirifisio@gmail.com"><i className="fab fa-google" /></a></li>
+                
               </ul>
             </div>
           </div>

@@ -19,8 +19,10 @@ class About extends Component {
         {/*====== BREADCRUMB PART END ======*/}
         {/*====== ABOUT PART START ======*/}
         <Aboutpage/>
-        <Roomgallery/>
         {/*====== ABOUT PART END ======*/}
+        {/*====== ABOUT PART START ======*/}
+        <Roomgallery/>
+        {/*====== ROOMGALERY PART END ======*/}
         {/*====== CORE FEATURES START ======*/}
         <Corefeature/>
         {/*====== CORE FEATURES END ======*/}

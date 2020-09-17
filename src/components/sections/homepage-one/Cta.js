@@ -30,7 +30,7 @@ class Cta extends Component {
                         <i className="flaticon-virus" />
                       </div>
                       <div className="cta-desc">
-                        <h3><Link to="#">Máscara &amp; Higiene </Link></h3>
+                        <h3><Link to="#"  onClick={e => e.preventDefault()} >Máscara &amp; Higiene </Link></h3>
                         <p>
                           O uso de máscara é obrigatório dentro da Leirifisio bem como a desinfeção  das mãos. 
                           A Leirifisio apresenta vários postos fixos e amovíveis com liquido para desinfeção.
@@ -46,7 +46,7 @@ class Cta extends Component {
                         <i className="flaticon-handwash" />
                       </div>
                       <div className="cta-desc">
-                        <h3><Link to="#">Segurança no tratamento</Link></h3>
+                        <h3><Link to="#"  onClick={e => e.preventDefault()}>Segurança no tratamento</Link></h3>
                         <p>
                           Durante qualquer tratamento, os funcionários da Leirifisio cumprem todas as devidas cauções 
                           exigidas pela Direção-Geral da Saúde (DGS), como a troca de vestuário entre pacientes bem como a 
@@ -63,7 +63,7 @@ class Cta extends Component {
                         <i className="flaticon-temperature" />
                       </div>
                       <div className="cta-desc">
-                        <h3><Link to="#">Medição da temperatura</Link></h3>
+                        <h3><Link to="#"  onClick={e => e.preventDefault()}>Medição da temperatura</Link></h3>
                         <p>
                           Embora não obrigatório, encorajamos os nosso clientes a medir a temperatura com o nosso 
                           termómetro digital antes de entrar na Leirifisio.
