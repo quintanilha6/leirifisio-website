@@ -4,7 +4,7 @@ import { Tab, Nav } from 'react-bootstrap';
 class ServiceType extends Component {
   render() {
     return (
-        <section className="room-type-section pt-115 pb-115" style={{backgroundImage: 'url(assets/img/leirifisio/7.JPG)'}}>
+        <section id="serviceTypeSection" className="room-type-section pt-115 pb-115" style={{backgroundImage: 'url(assets/img/leirifisio/7.JPG)'}}>
           <Tab.Container defaultActiveKey="reabilitacao">
               <div className="container">
             <div className="row align-items-center">

@@ -6,6 +6,8 @@ import ReactWOW from 'react-wow'
 import bannerimg1 from '../../../assets/img/leirifisio/14.JPG';
 import bannerimg2 from '../../../assets/img/leirifisio/19-cortado.jpg';
 
+import ServiceType from '../../sections/homepage-one/ServiceType';
+
 const bannerPosts = [
     {
         photo: bannerimg1,
@@ -15,7 +17,11 @@ const bannerPosts = [
     },
 ];
 class Banner extends Component {
-  render() {
+    scrollTo() {
+        document.getElementById("serviceTypeSection").scrollIntoView();
+      }
+
+    render() {
     const settings = {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -40,7 +46,7 @@ class Banner extends Component {
                     <ul>
                     <li>
                     <ReactWOW animation="fadeInUp" data-wow-delay=".7s">
-                        <Link className="main-btn btn-filled" to="/room-details">Serviços</Link>
+                        <button className="main-btn btn-filled" onClick={() => this.scrollTo()}>Serviços</button>
                     </ReactWOW>
                     </li>
                     <li>
