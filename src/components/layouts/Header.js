@@ -18,24 +18,6 @@ const navigationmenu = [
     child: false,
     link: '/about',
   },
-  /*{
-    id: 3,
-    linkText: 'Serviços',
-    child: true,
-    submenu:[
-      {
-        id: 31,
-        link:'/news',
-        linkText:'News',
-      },
-      {
-        id: 32,
-        link:'/news-details',
-        linkText:'News Details',
-      },
-    ]
-    
-  }*/,
   {
     id: 3,
     linkText: 'Parcerias',

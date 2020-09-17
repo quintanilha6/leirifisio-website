@@ -33,7 +33,7 @@ class Footer extends Component {
         
         {/*====== FOOTER PART START ======*/}
         <footer>
-          <div className="footer-subscibe-area pt-120 pb-120">
+          <div className="footer-subscibe-area">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-8">

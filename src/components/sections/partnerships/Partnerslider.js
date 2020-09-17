@@ -37,40 +37,6 @@ const roomimgPosts = [
     photo: ipl,
   },
 ];
-const roomPosts = [
-  {
-    name: 'ADSE',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'Caixa Geral de Depósitos',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'SAMS SIB',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'SAMS Quadros',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'CTT',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'Medicare',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'ACP',
-    icon: 'flaticon-handshake',
-  },
-  {
-    name: 'IPL',
-    icon: 'flaticon-handshake',
-  },
-];
 
 class Partnerslider extends Component {
     constructor(props) {
@@ -128,39 +94,6 @@ class Partnerslider extends Component {
             </div>
             ))}
           </Slider>
-        </div>
-        <div className="rooms-content-wrap">
-          <div className="container">
-            <div className="row justify-content-center justify-content-md-start">
-              <div className="col-xl-4 col-lg-5 col-sm-8">
-                <div className="room-content-box">
-                  <div className="slider-count" />
-                  <div className="slider-count-big" />
-                  <Slider className="room-content-slider"
-                    asNavFor={this.state.nav1}
-                    ref={slider => (this.slider2 = slider)}
-                    slidesToShow={1}
-                    slidesToScroll={1}
-                    fade={false}
-                    infinite={true}
-                    autoplay={true}
-                    autoplaySpeed={4000}
-                    arrows={false}
-                    dots={true}
-                    >
-                    {roomPosts.map((item, i) => (
-                    <div key={i} className="single-content">
-                      <div className="icon">
-                      <i className={item.icon}/>
-                      </div>
-                      <h3>{item.name}</h3>
-                    </div>
-                    ))}
-                  </Slider>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     );
