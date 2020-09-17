@@ -5,7 +5,6 @@ import graca from '../../../assets/img/testimonial/graca.jpg';
 import eulalia from '../../../assets/img/testimonial/eulalia.jpg';
 import mariacandida from '../../../assets/img/testimonial/mariacandida.jpg';
 import nuno from '../../../assets/img/testimonial/nuno.jpg';
-import an from '../../../assets/img/testimonial/an.png';
 
 const testimonialPosts = [
   {

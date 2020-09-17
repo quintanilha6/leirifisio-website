@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import 'react-responsive-modal/styles.css';
 
 class About extends Component {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
-import ReactWOW from 'react-wow'
 
 class Counter extends Component {
   render() {

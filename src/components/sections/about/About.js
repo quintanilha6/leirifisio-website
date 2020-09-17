@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'react-responsive-modal/styles.css';
-import ReactWOW from 'react-wow'
 
 class About extends Component {
   state = {

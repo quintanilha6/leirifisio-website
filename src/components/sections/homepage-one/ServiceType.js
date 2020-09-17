@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Tab, Nav } from 'react-bootstrap';
 
 class ServiceType extends Component {
