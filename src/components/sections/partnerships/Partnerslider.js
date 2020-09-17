@@ -2,48 +2,72 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick"; 
 
-import roomimg1 from '../../../assets/img/room-slider/01.jpg';
-import roomimg2 from '../../../assets/img/room-slider/02.jpg';
-import roomimg3 from '../../../assets/img/room-slider/03.jpg';
-import roomimg4 from '../../../assets/img/room-slider/04.jpg';
-import roomimg5 from '../../../assets/img/room-slider/05.jpg';
+import adse from '../../../assets/img/partnership-slider/adse.jpg';
+import cgd from '../../../assets/img/partnership-slider/cgd.png';
+import ctt from '../../../assets/img/partnership-slider/ctt.png';
+import samssib from '../../../assets/img/partnership-slider/samssib.png';
+import samsquadros from '../../../assets/img/partnership-slider/samsquadros.png';
+import medicare from '../../../assets/img/partnership-slider/medicare.png';
+import ipl from '../../../assets/img/partnership-slider/ipl.jpg';
+import acp from '../../../assets/img/partnership-slider/acp.jpg';
 
 const roomimgPosts = [
   {
-    photo: roomimg1,
+    photo: adse,
   },
   {
-    photo: roomimg2,
+    photo: cgd,
   },
   {
-    photo: roomimg3,
+    photo: samssib,
   },
   {
-    photo: roomimg4,
+    photo: samsquadros,
   },
   {
-    photo: roomimg5,
+    photo: ctt,
+  },
+  {
+    photo: medicare,
+  },
+  {
+    photo: acp,
+  },
+  {
+    photo: ipl,
   },
 ];
 const roomPosts = [
   {
-    name: 'Luxury',
+    name: 'ADSE',
     icon: 'flaticon-handshake',
   },
   {
-    name: 'Luxury',
+    name: 'Caixa Geral de Depósitos',
     icon: 'flaticon-handshake',
   },
   {
-    name: 'Luxury',
+    name: 'SAMS SIB',
     icon: 'flaticon-handshake',
   },
   {
-    name: 'Luxury',
+    name: 'SAMS Quadros',
     icon: 'flaticon-handshake',
   },
   {
-    name: 'Luxury',
+    name: 'CTT',
+    icon: 'flaticon-handshake',
+  },
+  {
+    name: 'Medicare',
+    icon: 'flaticon-handshake',
+  },
+  {
+    name: 'ACP',
+    icon: 'flaticon-handshake',
+  },
+  {
+    name: 'IPL',
     icon: 'flaticon-handshake',
   },
 ];
