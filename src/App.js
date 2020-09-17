@@ -19,12 +19,14 @@ import Roomlist from './components/pages/Roomlist';
 import Roomdetails from './components/pages/Roomdetails';
 import Contact from './components/pages/Contact';
 import Partnerships from './components/pages/Partnerships';
+import ScrollToTop from './components/layouts/ScrollToTop';
 
 function App() {
   return (
       <Router>
         { <Preloader />}
         <Switch>
+        <ScrollToTop>
           <Route exact path='/' component={Home} />
           <Route path='/home-two' component={Hometwo} />
           <Route path='/home-three' component={Homethree} />
@@ -42,6 +44,7 @@ function App() {
           <Route path='/room-details' component={Roomdetails} />
           <Route path='/contact' component={Contact} />
           <Route path='/partnerships' component={Partnerships} />
+        </ScrollToTop>
         </Switch>
       </Router>
   );

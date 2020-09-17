@@ -6,6 +6,8 @@ import Slider from "react-slick";
 import corona from '../../../assets/img/latest-post/coronavirus1.jpg';
 import reabertura from '../../../assets/img/latest-post/reabertura.jpg';
 import diafisioterapia from '../../../assets/img/latest-post/diafisioterapia.jpg';
+import certificado from '../../../assets/img/latest-post/certificado.jpg';
+
 
 const blogPosts = [
   {
@@ -14,6 +16,13 @@ const blogPosts = [
     date: ' 7 de Setembro, 2019',
     author: 'Manuela',
     desc: 'Hoje, é Dia Mundial da Fisioterapia. Como tal, a Leirifisio associa-se à data, desejando a todos um excelente dia. Cuide da sua saúde a cima de tudo!',
+  },
+  {
+    photo: certificado,
+    title: 'Certificado de Manipulação Vertebral',
+    date: ' 1 de Junho, 2020',
+    author: 'Manuela',
+    desc: 'É com prazer que anunciamos mais um certificado adquirido por Manuela Silva na area de Manipulação Vertebral.',
   },
   {
     photo: reabertura,

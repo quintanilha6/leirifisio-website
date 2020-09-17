@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
-import Breadcrumb from '../sections/about/Breadcrumb';
-import Aboutpage from '../sections/about/About';
-import Corefeature from '../sections/about/Corefeature';
-import Counter from '../sections/about/Counter';
-import News from '../sections/about/News';
+import Breadcrumb from '../sections/partnerships/Breadcrumb';
+import Partnerslider from '../sections/partnerships/Partnerslider';
+import Textbox from '../sections/partnerships/Textbox';
 
 class About extends Component {
   render() {
@@ -15,18 +13,13 @@ class About extends Component {
         {/*====== BREADCRUMB PART START ======*/}
         <Breadcrumb/>
         {/*====== BREADCRUMB PART END ======*/}
-        {/*====== ABOUT PART START ======*/}
-        <Aboutpage/>
-        {/*====== ABOUT PART END ======*/}
-        {/*====== CORE FEATURES START ======*/}
-        <Corefeature/>
-        {/*====== CORE FEATURES END ======*/}
-        {/*====== COUNTER UP START ======*/}
-        <Counter/>
-        {/*====== COUNTER UP END ======*/}
-        {/*====== LATEST NEWS START ======*/}
-        <News/>
-        {/*====== LATEST NEWS END ======*/}
+        {/*====== TEXTBOX PART START ======*/}
+        <Textbox/>
+        {/*====== TEXTBOX PART END ======*/}
+        {/*====== PARTNERSHIPSLIDER PART START ======*/}
+        <Partnerslider/>
+        {/*====== PARTNERSHIPSLIDER PART END ======*/}
+        {/*====== FOOTER START ======*/}
         <Footer />
       </div>
     );

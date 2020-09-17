@@ -17,34 +17,34 @@ const navigationmenu = [
     linkText: 'Sobre nós',
     child: false,
     link: '/about',
-},
-{
-  id: 3,
-  linkText: 'Serviços',
-  child: true,
-  submenu:[
-    {
-      id: 31,
-      link:'/news',
-      linkText:'News',
-    },
-    {
-      id: 32,
-      link:'/news-details',
-      linkText:'News Details',
-    },
-  ]
-  
-},
-{
-  id: 4,
-  linkText: 'Parcerias',
-  child: false,
-  link: '/partnerships',
-  
-},
+  },
+  /*{
+    id: 3,
+    linkText: 'Serviços',
+    child: true,
+    submenu:[
+      {
+        id: 31,
+        link:'/news',
+        linkText:'News',
+      },
+      {
+        id: 32,
+        link:'/news-details',
+        linkText:'News Details',
+      },
+    ]
+    
+  }*/,
   {
-    id: 5,
+    id: 3,
+    linkText: 'Parcerias',
+    child: false,
+    link: '/partnerships',
+    
+  },
+  {
+    id: 4,
     link: '/contact',
     linkText: 'Contacto',
     child: false,
@@ -88,13 +88,13 @@ componentDidMount() {
     this.setState({
         isMobile: window.innerWidth < 1020
     });
-}, false);
+  }, false);
 
-  window.addEventListener('scroll', () => {
-    this.setState({
-        isTop: window.scrollY > 150
-    });
-}, false);
+    window.addEventListener('scroll', () => {
+      this.setState({
+          isTop: window.scrollY > 150
+      });
+  }, false);
 }
 navToggle = () => {
   const nv = findDOMNode(this.refs.navmenu);

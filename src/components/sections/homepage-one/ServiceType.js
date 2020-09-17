@@ -42,9 +42,9 @@ class ServiceType extends Component {
                             <div className="room-box extra-wide">
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/r_muscular.jpg)'}} />
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Reabilitação Muscular</Link></h3>
+                                <h3 class="whiteTextOverride">Reabilitação Muscular</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
@@ -52,9 +52,9 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/r_respiratoria.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Reabilitação Respiratória</Link></h3>
+                                <h3 class="whiteTextOverride">Reabilitação Respiratória</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
@@ -62,9 +62,9 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/r_pediatrica.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Reabilitação Pediátrica</Link></h3>
+                                <h3 class="whiteTextOverride">Reabilitação Pediátrica</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                         </div>
@@ -74,9 +74,9 @@ class ServiceType extends Component {
                             <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/r_neurologica.jpg)'}}>
                             </div>
                             <div className="room-content">
-                            <h3><Link to="/room-details">Reabilitação Neurológica</Link></h3>
+                            <h3 class="whiteTextOverride">Reabilitação Neurológica</h3>
                             </div>
-                            <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                            <i className="fal fa-arrow-right" />
                         </div>
                         </div>
                     </div>
@@ -91,9 +91,9 @@ class ServiceType extends Component {
                             <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/c_massagem_drenagem.jpg)'}}>
                             </div>
                             <div className="room-content">
-                            <h3><Link to="/room-details">Massagem de drenagem linfática</Link></h3>
+                            <h3 class="whiteTextOverride">Massagem de drenagem linfática</h3>
                             </div>
-                            <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                            <i className="fal fa-arrow-right" />
                         </div>
                         </div>
                         <div className="col-lg-8">
@@ -103,9 +103,9 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/c_massagem_local.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Massagem manual local</Link></h3>
+                                <h3 class="whiteTextOverride">Massagem manual local</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
@@ -113,18 +113,18 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/c_respiratoria.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Cinesioterapia respiratória</Link></h3>
+                                <h3 class="whiteTextOverride">Cinesioterapia respiratória</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-12">
                             <div className="room-box extra-wide">
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/c_massagem_geral.jpg)'}} />
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Massagem manual geral</Link></h3>
+                                <h3 class="whiteTextOverride">Massagem manual geral</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                         </div>
@@ -141,9 +141,9 @@ class ServiceType extends Component {
                             <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/e_ultrasons.jpg)'}}>
                             </div>
                             <div className="room-content">
-                            <h3><Link to="/room-details">Ultra-sons</Link></h3>
+                            <h3 class="whiteTextOverride">Ultra-sons</h3>
                             </div>
-                            <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                            <i className="fal fa-arrow-right" />
                         </div>
                         </div>
                         <div className="col-lg-8">
@@ -152,9 +152,9 @@ class ServiceType extends Component {
                             <div className="room-box extra-wide">
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/e_correntes.jpg)'}} />
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Correntes galvânicas</Link></h3>
+                                <h3 class="whiteTextOverride">Correntes galvânicas</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
@@ -162,9 +162,9 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/e_laser.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Laser</Link></h3>
+                                <h3 class="whiteTextOverride">Laser</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
@@ -172,9 +172,9 @@ class ServiceType extends Component {
                                 <div className="room-bg" style={{backgroundImage: 'url(assets/img/fisio/e_ondascurtas.jpg)'}}>
                                 </div>
                                 <div className="room-content">
-                                <h3><Link to="/room-details">Ondas curtas</Link></h3>
+                                <h3 class="whiteTextOverride">Ondas curtas</h3>
                                 </div>
-                                <Link to="/room-details" className="room-link"><i className="fal fa-arrow-right" /></Link>
+                                <i className="fal fa-arrow-right" />
                             </div>
                             </div>
                         </div>
