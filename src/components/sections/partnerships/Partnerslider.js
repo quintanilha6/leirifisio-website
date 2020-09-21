@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick"; 
 
-import adse from '../../../assets/img/partnership-slider/adse.jpg';
+import adse from '../../../assets/img/partnership-slider/adse.png';
 import cgd from '../../../assets/img/partnership-slider/cgd.png';
 import ctt from '../../../assets/img/partnership-slider/ctt.png';
 import samssib from '../../../assets/img/partnership-slider/samssib.png';
@@ -13,10 +13,10 @@ import acp from '../../../assets/img/partnership-slider/acp.jpg';
 
 const roomimgPosts = [
   {
-    photo: adse,
+    photo: cgd,
   },
   {
-    photo: cgd,
+    photo: adse,
   },
   {
     photo: samssib,
