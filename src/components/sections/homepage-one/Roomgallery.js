@@ -12,7 +12,7 @@ class Roomgallery extends Component {
                 <div className="cta-text text-center">
                   <span>instalações</span>
                   <h2>
-                    Espaços amplos e salas privadas para tratamentos. Venha conhecer os nossos espaços.
+                  Espaços amplos e salas privadas para tratamentos. Venha conhecê-los.
                   </h2>
                   <ul className="mt-50">
                     <ReactWOW animation="fadeInUp" data-wow-delay=".3s">

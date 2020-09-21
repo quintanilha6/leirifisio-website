@@ -23,7 +23,7 @@ class About extends Component {
             </div>
             <div className="section-title about-title text-center">
               <span className="title-tag">desde <span>2002</span></span>
-              <h2>A vontade de ajudar e a simpatia reinam nesta casa, pois a Leirifisio dá tudo pelos seus clientes e a sua saúde.</h2>
+              <h2>A Leirifisio cuida de si, cuida de todos. Venha conhecer-nos.</h2>
             </div>
             <div className="about-text-box">
               <div className="row align-items-center">
@@ -37,7 +37,10 @@ class About extends Component {
                     <span>instalações</span>
                     <h3>Conheça o nosso estabelecimento</h3>
                     <p>
-                    Um grande open-space capaz de fornecer não só o respeito ao devido distânciamento social mas também a privacidade de cada utente. Mantemos os espaços limpos e desinfetados com a regularidade máxima. Temos vários locais de espera e refrigeração perto da recepção e outros locais de descanso ao longo das instalações. Não hesite em contactar para mais informações. 
+                    Um grande open-space que permite o atendimento ao balcão, respeitando a distância mínima de 1m e sala de espera com distância mínima de 1m.
+                    Permite o período de tempo necessário entre utentes para higienizar o espaço e o material utilizado e evitar cruzamento entre utentes bem como 
+                    a higienização das mãos à entrada e à saída do estabelecimento, e antes de colocar e após a remoção dos Equipamentos de Proteção Individual.
+                    <p>Para mais informações, não hesite em <Link to="/contact" >contactar-nos</Link>.</p>
                     </p>
                     <Link to="/contact" className="main-btn btn-filled">Contacte-nos</Link>
                   </div>

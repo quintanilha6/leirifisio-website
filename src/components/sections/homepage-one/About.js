@@ -21,7 +21,7 @@ class About extends Component {
           </div>
           <div className="section-title about-title text-center mb-20">
             <span className="title-tag">Desde <span>2002</span></span>
-            <h2>Situado no coração da Cidade de Leiria, a Leirifisio fornece vários serviços de Fisioterapia e Movimento.</h2>
+            <h2>Situada no coração da Cidade de Leiria, a Leirifisio fornece vários serviços de Fisioterapia e Movimento.</h2>
           </div>
           <ul className="about-features masonry-layout">
             <ReactWOW animation='fadeInUp' data-wow-delay=".3s">

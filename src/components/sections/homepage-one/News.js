@@ -21,11 +21,11 @@ const blogPosts = [
     title: 'Certificado de Manipulação Vertebral',
     date: ' 1 de Junho, 2020',
     author: 'Manuela',
-    desc: 'É com prazer que anunciamos mais um certificado adquirido por Manuela Silva na area de Manipulação Vertebral.',
+    desc: 'É com prazer que anunciamos mais um certificado adquirido por Manuela Silva na área de Manipulação Vertebral.',
   },
   {
     photo: reabertura,
-    title: 'Leirifisio abre as portas novamente',
+    title: 'Leirifisio abre portas novamente',
     date: ' 4 de Maio, 2020',
     author: 'Manuela',
     desc: 'É com a maior felicidade que a Leirifisio anúncia que a porta estará novamente aberta a partir do dia 4 de Maio de 2020.',

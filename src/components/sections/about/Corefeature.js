@@ -20,7 +20,7 @@ class Corefeature extends Component {
                   </div>
                   <h3><a>Boa classificação</a></h3>
                   <p>
-                    Ao longos dos anos, acumulamos feedbacks e comentários positivos de toda a diversidade dos nossos utentes 
+                    Ao longos dos anos, acumulamos feedbacks e comentários positivos de todos os  nossos utentes.
                   </p>
                   <span className="count">01</span>
                 </div>
@@ -34,7 +34,7 @@ class Corefeature extends Component {
                   </div>
                   <h3><a>Espaço calmo</a></h3>
                   <p>
-                    Durante qualquer sessão, oferecemos aos utentes um ambiente calmo e susceptível ao bem-estar do mesmo.
+                    Durante as  sessões, oferecemos um ambiente calmo propício ao bem-estar dos nossos utentes.
                   </p>
                   <span className="count">02</span>
                 </div>
@@ -46,9 +46,9 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-parking" />
                   </div>
-                  <h3><a>Boa localização</a></h3>
-                  <p>
-                    Perto do Seminário Diocesano de Leiria. Várias opções para estacionamento de veículos. 
+                  <h3><a>Boa Localização</a></h3>
+                  <p> 
+                    Bem localizada. Perto do Seminário Diocesano de Leiria, numa rua residencial, de fácil estacionamento.
                   </p>
                   <span className="count">03</span>
                 </div>
@@ -60,9 +60,9 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-error" />
                   </div>
-                  <h3><a>Cancelamento</a></h3>
+                  <h3><a>Cancelamentos</a></h3>
                   <p>
-                    Estamos conscientes de que podem existir imprevistos. Por isso aceitamos cancelamentos com justa causa
+                  Podem existir imprevistos. Por isso, aceitamos cancelamentos com justa causa, devidamente fundamentados.
                   </p>
                   <span className="count">04</span>
                 </div>
@@ -74,9 +74,10 @@ class Corefeature extends Component {
                   <div className="icon">
                     <i className="flaticon-home" />
                   </div>
-                  <h3><a>Espaço amplo</a></h3>
+                  <h3><a>Espaço</a></h3>
                   <p>
-                    Com um grande espaço amplo e uma óptima exposição solar, garantimos o destanciamento social necessário
+                  Grande espaço amplo, envidraçado e com ótima exposição solar. 
+                  Receção, 2 salas de tratamentos privadas e 1 WC.
                   </p>
                   <span className="count">05</span>
                 </div>
@@ -90,7 +91,7 @@ class Corefeature extends Component {
                   </div>
                   <h3><a to="/partnerships">Parcerias</a></h3>
                   <p>
-                    Junto com os protocolos, a Leirifisio garante descontos legíveis nos tratamentos com parcerias
+                    Fale connosco e saiba de que forma pode aceder a descontos e outras vantagens.
                   </p>
                   <span className="count">06</span>
                 </div>

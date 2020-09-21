@@ -10,7 +10,7 @@ class ServiceType extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="section-title text-lg-left text-center">
-                  <h2>Alguns dos Serviços</h2>
+                  <h2>Alguns dos nossos Serviços</h2>
                 </div>
               </div>
               <div className="col-lg-6">
