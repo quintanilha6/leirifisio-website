@@ -19,7 +19,7 @@ class About extends Component {
       <section className="about-section pt-115 pb-115">
           <div className="container">
             {/*<div className="video-wrap video-wrap-two video-about mb-60" style={{backgroundImage: 'url(assets/img/text-block/04.jpg)'}}>*/}
-            <div className="video-wrap video-wrap-two video-about mb-60" style={{backgroundImage: 'url(assets/img/leirifisio/14.JPG)'}}>
+            <div className="video-wrap video-wrap-two video-about mb-60" style={{backgroundImage: 'url(assets/img/leirifisio/14_1.JPG)'}}>
             </div>
             <div className="section-title about-title text-center">
               <span className="title-tag">desde <span>2002</span></span>
