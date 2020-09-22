@@ -17,7 +17,7 @@ class Cta extends Component {
                       <h2>Covid-19</h2>
                     </div>
                     <p>A Leirifisio oferece-lhe a segurança e o bem-estar que necessita, como espaço ventilado, 
-                      número limitado de pessoas no interior, desinfação regular, entre outros.</p>
+                      número limitado de pessoas no interior, desinfecção regular de todas as superfícies e equipamentos.</p>
                     <Link to="/contact" className="main-btn btn-filled">Contacte-nos</Link>
                   </div>
                 </div>
