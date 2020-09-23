@@ -57,7 +57,7 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>E-mail</h4>
-                      <p>leirifisio@gmail.com <br /> mmsjpm@gmail.com</p>
+                      <p>leirifisio@gmail.com  </p>
                     </div>
                   </div>
                 </div>

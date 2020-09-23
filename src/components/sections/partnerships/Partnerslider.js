@@ -10,6 +10,7 @@ import samsquadros from '../../../assets/img/partnership-slider/samsquadros.png'
 import medicare from '../../../assets/img/partnership-slider/medicare.png';
 import ipl from '../../../assets/img/partnership-slider/ipl.jpg';
 import acp from '../../../assets/img/partnership-slider/acp.jpg';
+import sbc from '../../../assets/img/partnership-slider/SBC.jpg';
 
 const roomimgPosts = [
   {
@@ -35,6 +36,9 @@ const roomimgPosts = [
   },
   {
     photo: ipl,
+  },
+  {
+    photo: sbc,
   },
 ];
 
