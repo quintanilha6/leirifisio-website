@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick"; 
 import ReactWOW from 'react-wow'
 
-import bannerimg1 from '../../../assets/img/leirifisio/14.JPG';
-import bannerimg2 from '../../../assets/img/leirifisio/19-cortado.jpg';
+import bannerimg1 from '../../../assets/img/leirifisio/21.jpeg';
+import bannerimg2 from '../../../assets/img/leirifisio/22.jpg';
 
 import ServiceType from '../../sections/homepage-one/ServiceType';
 
