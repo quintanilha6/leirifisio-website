@@ -46,7 +46,7 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>Telefone</h4>
-                      <p>244 838 574 <br /> 933 739 388</p>
+                      <p>Chamada para a rede fixa nacional - 244 838 574 <br />Chamada para a rede móvel nacional - 933 739 388</p>
                     </div>
                   </div>
                 </div>
