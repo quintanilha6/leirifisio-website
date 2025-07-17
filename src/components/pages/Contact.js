@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Header from '../layouts/Header';
-import Footer from '../layouts/Footer';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
+import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
@@ -9,13 +9,18 @@ class Contact extends Component {
       <div>
         <Header />
         {/*====== BREADCRUMB PART START ======*/}
-        <section className="breadcrumb-area" style={{backgroundImage: 'url(assets/img/leirifisio/12.JPG)'}}>
+        <section
+          className="breadcrumb-area"
+          style={{ backgroundImage: "url(assets/img/leirifisio/12.JPG)" }}
+        >
           <div className="container">
             <div className="breadcrumb-text">
               <span>Centro de Fisioterapia e Movimento</span>
               <h2 className="page-title">Contacte-nos</h2>
               <ul className="breadcrumb-nav">
-                <li><Link to="/">Leirifisio</Link></li>
+                <li>
+                  <Link to="/">Leirifisio</Link>
+                </li>
                 <li className="active">Contacto</li>
               </ul>
             </div>
@@ -35,7 +40,7 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>Morada</h4>
-                      <p>R. Dom Horácio Coelho Cristino 6, 2410-039 Leiria</p>
+                      <p>R. Dom Horácio Coelho Cristino 6, 2410-036 Leiria</p>
                     </div>
                   </div>
                 </div>
@@ -46,7 +51,10 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>Telefone</h4>
-                      <p>Chamada para a rede fixa nacional - 244 838 574 <br />Chamada para a rede móvel nacional - 933 739 388</p>
+                      <p>
+                        Chamada para a rede fixa nacional - 244 838 574 <br />
+                        Chamada para a rede móvel nacional - 933 739 388
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -57,7 +65,7 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>E-mail</h4>
-                      <p>leirifisio@gmail.com  </p>
+                      <p>leirifisio@gmail.com </p>
                     </div>
                   </div>
                 </div>
@@ -65,14 +73,16 @@ class Contact extends Component {
             </div>
             {/* Contact Mapts */}
             <div className="contact-maps mb-30">
-              <iframe src="https://maps.google.com/maps?q=Leirifisio%20-%20Centro%20de%20Fisioterapia%20e%20Movimento%20Lda&t=&z=13&ie=UTF8&iwloc=&output=embed" title="title" />
+              <iframe
+                src="https://maps.google.com/maps?q=Leirifisio%20-%20Centro%20de%20Fisioterapia%20e%20Movimento%20Lda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                title="title"
+              />
             </div>
           </div>
         </section>
         {/*====== CONTACT PART END ======*/}
         <Footer />
       </div>
-
     );
   }
 }
