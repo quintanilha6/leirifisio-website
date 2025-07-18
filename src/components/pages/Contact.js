@@ -40,7 +40,10 @@ class Contact extends Component {
                     </div>
                     <div className="desc">
                       <h4>Morada</h4>
-                      <p>R. Dom Horácio Coelho Cristino 6, 2410-036 Leiria</p>
+                      <p>
+                        R. Dom Horácio Coelho Cristino Lote 6, Nº8, 2410-036
+                        Leiria
+                      </p>
                     </div>
                   </div>
                 </div>
