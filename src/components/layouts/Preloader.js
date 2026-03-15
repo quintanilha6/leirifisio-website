@@ -9,12 +9,17 @@ class Preloader extends Component {
   }
 
   componentDidMount() {
-    fetch('assets/img/logo.png')
+    fetch('assets/img/leirifisio/logo-sem-texto.png')
       .then(response => {
 		this.setState({
 			fetchSuccess: true
 		});
-  	});
+  	})
+      .catch(() => {
+        this.setState({
+          fetchSuccess: true
+        });
+      });
   }
   render() {
     const{ fetchSuccess } = this.state;

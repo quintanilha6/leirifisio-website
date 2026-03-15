@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from "react-slick"; 
 
 import adse from '../../../assets/img/partnership-slider/adse.png';

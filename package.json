@@ -2,6 +2,7 @@
   "name": "miranda",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "main": "lib/index",
   "types": "lib/index",
   "dependencies": {
