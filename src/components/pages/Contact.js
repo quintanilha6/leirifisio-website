@@ -83,7 +83,7 @@ class Contact extends Component {
                       <h4>Psicologia Clínica</h4>
                       <p>
                         Dra. Carolina Caseiro (cédula nº 28860) <br />
-                        Marcações: 919 726 119
+                        Marcações: <a href="tel:919726119">919 726 119</a>
                       </p>
                     </div>
                   </div>
