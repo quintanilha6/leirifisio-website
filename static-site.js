@@ -201,6 +201,16 @@
     });
   });
 
+  document.querySelectorAll('[data-scroll-to]').forEach(function (el) {
+    el.addEventListener('click', function (event) {
+      event.preventDefault();
+      var section = document.getElementById(el.getAttribute('data-scroll-to'));
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
   servicesScroll.addEventListener('click', function () {
     var section = document.getElementById('serviceTypeSection');
     if (section) {
