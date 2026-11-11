@@ -7977,3 +7977,102 @@ footer .copyright-area.light-theme .footer-menu ul li::before {
 {
  color: white !important;
 }
+/* Novo serviço: link no banner */
+.banner-area .banner-content .new-service-link {
+  margin-top: 30px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+  cursor: pointer;
+  transition: color 0.3s ease-out 0s;
+}
+.banner-area .banner-content .new-service-link:hover {
+  color: #b90024;
+}
+.banner-area .banner-content .new-service-link .new-badge {
+  display: inline-block;
+  background-color: #b90024;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 3px 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.banner-area .banner-content .new-service-link i {
+  margin-left: 6px;
+}
+
+/* Sobre: 6 cards em V simétrico (0 · 100 · 200 · 200 · 100 · 0) */
+@media (min-width: 768px) {
+  .about-section .about-features.masonry-layout {
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 20px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(4) {
+    margin-top: 200px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(5) {
+    margin-top: 100px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(6) {
+    margin-top: 0;
+  }
+  .about-section .about-features.masonry-layout li a .title {
+    letter-spacing: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    min-height: 3.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-section .about-features.masonry-layout {
+    grid-column-gap: 12px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(4) {
+    margin-top: 100px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(5) {
+    margin-top: 50px;
+  }
+  .about-section .about-features.masonry-layout li a .title {
+    letter-spacing: 1px;
+  }
+}
+/* 3 colunas: duas filas iguais (0 · 50 · 100) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-section .about-features.masonry-layout li:nth-child(4) {
+    margin-top: 0;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(5) {
+    margin-top: 50px;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(6) {
+    margin-top: 100px;
+  }
+}
+/* 2 colunas: alterna 0 · 50 */
+@media (max-width: 575px) {
+  .about-section .about-features.masonry-layout li:nth-child(5) {
+    margin-top: 0;
+  }
+  .about-section .about-features.masonry-layout li:nth-child(6) {
+    margin-top: 50px;
+  }
+}
+
+/* Contacto: links da clínica em destaque */
+.contact-part .contact-info .info-box .desc a {
+  color: #111;
+  font-weight: 700;
+}
+.contact-part .contact-info .info-box .desc a:hover {
+  color: #b90024;
+}

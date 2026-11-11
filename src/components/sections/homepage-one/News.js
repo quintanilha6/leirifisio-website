@@ -10,6 +10,13 @@ import certificado from '../../../assets/img/latest-post/certificado.jpg';
 
 const blogPosts = [
   {
+    photo: 'assets/img/leirifisio/7.JPG',
+    title: 'Novo serviço: Psicologia Clínica',
+    date: ' 11 de Novembro, 2026',
+    author: 'Manuela',
+    desc: 'A Leirifisio tem agora consultas de Psicologia Clínica com a Dra. Carolina Caseiro: luto, depressão, ansiedade, stress e burnout. Marcações: 919 726 119.',
+  },
+  {
     photo: diafisioterapia,
     title: 'Hoje é Dia Mundial da Fisioterapia',
     date: ' 7 de Setembro, 2019',

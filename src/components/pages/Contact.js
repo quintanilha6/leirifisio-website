@@ -33,42 +33,58 @@ class Contact extends Component {
             {/* Contact Info */}
             <div className="contact-info">
               <div className="row justify-content-center">
-                <div className="col-lg-4 col-sm-6 col-10">
-                  <div className="info-box">
-                    <div className="icon">
-                      <i className="flaticon-home" />
-                    </div>
-                    <div className="desc">
-                      <h4>Morada</h4>
-                      <p>
-                        R. Dom Horácio Coelho Cristino Lote 6, Nº8, 2410-036
-                        Leiria
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-sm-6 col-10">
-                  <div className="info-box">
+                <div className="col-md-6 col-12 d-flex">
+                  <div className="info-box w-100">
                     <div className="icon">
                       <i className="flaticon-phone" />
                     </div>
                     <div className="desc">
                       <h4>Telefone</h4>
                       <p>
-                        Chamada para a rede fixa nacional - 244 838 574 <br />
-                        Chamada para a rede móvel nacional - 933 739 388
+                        Rede fixa: <a href="tel:244838574">244 838 574</a> <br />
+                        Rede móvel: <a href="tel:933739388">933 739 388</a>
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-sm-6 col-10">
-                  <div className="info-box">
+                <div className="col-md-6 col-12 d-flex">
+                  <div className="info-box w-100">
                     <div className="icon">
                       <i className="flaticon-message" />
                     </div>
                     <div className="desc">
                       <h4>E-mail</h4>
-                      <p>leirifisio@gmail.com </p>
+                      <p>
+                        <a href="mailto:leirifisio@gmail.com">leirifisio@gmail.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-12 d-flex">
+                  <div className="info-box w-100">
+                    <div className="icon">
+                      <i className="flaticon-home" />
+                    </div>
+                    <div className="desc">
+                      <h4>Morada</h4>
+                      <p>
+                        R. Dom Horácio Coelho Cristino Lote 6, Nº8 <br />
+                        2410-036 Leiria
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-12 d-flex">
+                  <div className="info-box w-100">
+                    <div className="icon">
+                      <i className="fal fa-brain" />
+                    </div>
+                    <div className="desc">
+                      <h4>Psicologia Clínica</h4>
+                      <p>
+                        Dra. Carolina Caseiro (cédula nº 28860) <br />
+                        Marcações: 919 726 119
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -55,6 +55,11 @@ class Banner extends Component {
                         </ReactWOW>
                     </li>
                     </ul>
+                    <ReactWOW animation="fadeInUp" data-wow-delay="1.1s">
+                    <button className="new-service-link" onClick={() => document.getElementById("psicologiaSection").scrollIntoView({ behavior: "smooth" })}>
+                        <span className="new-badge">Novo</span> Psicologia Clínica <i className="fal fa-arrow-right" />
+                    </button>
+                    </ReactWOW>
                 </div>
                 </div>
                 <ReactWOW animation="fadeInRight" data-wow-delay="0.5s">

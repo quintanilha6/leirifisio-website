@@ -69,6 +69,15 @@ class About extends Component {
               </Link>
             </li>
             </ReactWOW>
+            <ReactWOW animation='fadeInUp' data-wow-delay="1.3s">
+            <li>
+              <Link to="#" onClick={e => { e.preventDefault(); document.getElementById("psicologiaSection").scrollIntoView({ behavior: "smooth" }); }}>
+                <i className="fal fa-brain" />
+                <i className="hover-icon fal fa-brain" />
+                <span className="title">Psicologia Clínica</span>
+              </Link>
+            </li>
+            </ReactWOW>
           </ul>
         </div>
       </section>
